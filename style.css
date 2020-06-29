@@ -1,5 +1,4 @@
-
-
+/* Bold title for Portfolio items */
 span {
     font-weight: bold;
     color: steelblue;
@@ -64,11 +63,11 @@ h1, h2 {
 
 /* Font family and color */
 p {
-color: gray;
-background-color: whitesmoke; 
-font-family: 'Hind Vadodara', sans-serif;
-padding: 5px;
-margin-top: 10px;
+    color: gray;
+    background-color: whitesmoke; 
+    font-family: 'Hind Vadodara', sans-serif;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 /* Card color and spacing across top of all pages, games, portfolio card layout */
@@ -85,19 +84,19 @@ margin-top: 10px;
 }
 
 /* Portfolio preview top of page */
- .carousel {
-     padding: 10px;
- }
+.carousel {
+    padding: 10px;
+}
 
  /* Portfolio images in page */
- .portfolio-images img {
+.portfolio-images img {
     padding-bottom: 10px;
- }
+}
 
  /* Space for content on top of game page */
- .game1 {
-     padding-top: 15px;
- }
+.game1 {
+    padding-top: 15px;
+}
 
  /* Sticky footer added across all pages */
 .footer {
@@ -113,11 +112,11 @@ margin-top: 10px;
 /* Psuedo Code for clicked links across all pages */
 a:active {
     background-color: black;
-  }
+}
 
 /* Responsive design elements for screens down to 411px */
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 1024px) {
     
 /* Body changes to light blue to indicate when screens are less than 412px */    
     body {
@@ -132,8 +131,8 @@ a:active {
     }
 
     .card-img-top {
-        width: 341px;
-        height: 373px;
+        width: 300px;
+        height: 350px;
     }
 
     h1 {
@@ -161,4 +160,4 @@ a:active {
     .btn-primary {
         color: black;
     }
-  }
+}
