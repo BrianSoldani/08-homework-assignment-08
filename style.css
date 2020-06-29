@@ -1,14 +1,14 @@
-body {
+/* body {
     background-color: #efeee7;
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 150%;
-}
+} */
 
 
-h1 {
+/* h1 {
     color: #efeee7;
     background-color: steelblue;
     margin: 0;
@@ -16,13 +16,13 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 28px;
-}
+} */
 
-h2 {
+/* h2 {
     font-size: 24px;
     color: steelblue;
     text-decoration: underline;
-}
+} */
 
 span {
     font-weight: bold;
@@ -58,3 +58,139 @@ a {
     height: 200px;
 }
 
+
+/* Nuetral background + bottom space for sticky footer */
+body {
+    background-color:rgb(250, 244, 236);
+    padding-bottom: 65px;
+}
+
+/* Name across all pages */
+#proheader {
+    color: whitesmoke;
+    background-color: steelblue;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    position: static;
+    }
+
+/* Navigation buttons */
+.navigation_pills {
+    padding: 10px;
+    background-color: lightblue;
+    opacity: 85%;
+    font-weight: bolder; 
+}
+
+/* Bio picture style for responsiveness */
+.img-fluid {
+    position: auto;
+    border-style: double;
+    border-width: 2px;
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 250px;
+}
+
+/* Font family and color */
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: slategray;
+}
+
+/* Font family and color */
+p {
+color: gray;
+background-color: whitesmoke; 
+font-family: 'Hind Vadodara', sans-serif;
+padding: 5px;
+margin-top: 10px;
+}
+
+/* Card color and spacing across top of all pages, games, portfolio card layout */
+.card {  
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Card color and spacing across various card layouts in games and portfolio */
+.card-body {
+    text-align: center;
+    color: darkslategray;
+    padding: 5px;
+}
+
+/* Portfolio preview top of page */
+ .carousel {
+     padding: 10px;
+ }
+
+ /* Portfolio images in page */
+ .portfolio-images img {
+    padding-bottom: 10px;
+ }
+
+ /* Space for content on top of game page */
+ .game1 {
+     padding-top: 15px;
+ }
+
+ /* Sticky footer added across all pages */
+.footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #ADD8E6;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Psuedo Code for clicked links across all pages */
+a:active {
+    background-color: black;
+  }
+
+/* Responsive design elements for screens down to 411px */
+
+@media only screen and (max-width: 411px) {
+    
+/* Body changes to light blue to indicate when screens are less than 412px */    
+    body {
+      background-color: lightblue;
+    }
+
+    .img-fluid {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 5 auto 10px auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    /* Nav bar changes color and text size for smaller screens */
+    .navigation_pills {
+    background-color: whitesmoke;
+    font-size: 10px;
+    }
+
+    /* Sticky foother changes colors and text size for smaller screens */
+    .footer {
+        text-align: center;
+        font-size: 10px;
+        background-color: steelblue;
+        color: white;
+    }
+
+    #footer-linkedin {
+        color: black;
+    }
+
+    .btn-primary {
+        color: black;
+    }
+  }
