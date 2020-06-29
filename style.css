@@ -1,63 +1,10 @@
-/* body {
-    background-color: #efeee7;
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-} */
 
-
-/* h1 {
-    color: #efeee7;
-    background-color: steelblue;
-    margin: 0;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 28px;
-} */
-
-/* h2 {
-    font-size: 24px;
-    color: steelblue;
-    text-decoration: underline;
-} */
 
 span {
     font-weight: bold;
     color: steelblue;
     text-decoration: underline;
 }
-
-a {
-    color: steelblue;
-}
-
-.container {
-    width: 1024px;
-    margin: 0 auto;
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-    float: left;
-}
-
-#main-bio {
-    width: 70%;
-}
-#contact-info {
-    width: 30%;
-}
-
-#bio-image {
-    margin-right: 20px;
-    width: 200px;
-    height: 200px;
-}
-
 
 /* Nuetral background + bottom space for sticky footer */
 body {
@@ -91,6 +38,22 @@ body {
     margin: 10px auto;
     width: 250px;
     height: 250px;
+}
+
+/* Bio picture style for responsiveness */
+.img-fluid2 {
+    position: auto;
+    border-style: double;
+    border-width: 2px;
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 330px;
+}
+
+.card-img-top {
+    width: 538px;
+    height: 600px;
 }
 
 /* Font family and color */
@@ -166,6 +129,11 @@ a:active {
         height: 300px;
         display: block;
         margin: 5 auto 10px auto;
+    }
+
+    .card-img-top {
+        width: 341px;
+        height: 373px;
     }
 
     h1 {

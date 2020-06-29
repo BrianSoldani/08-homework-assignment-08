@@ -1,80 +1,129 @@
 <!DOCTYPE html>
-    <html lang="en-us">
-        <head>
-            <meta charset="UTF-8">
-                
-            <title>Brian Soldani's Portfolio</title>
-            
-            <!-- Linking CSS -->
-	        <link rel="stylesheet" type="text/css" href="style.css">    
-        
-        </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-    <body>
-  
+    <!-- Adding Custom Viewport Info -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brian Soldani's Portfolio</title>
+            
+
+            <!-- Linking Bootstrap and CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+            <link rel="stylesheet" type="text/css" href="./style.css">
+            
+            <!-- Google Fonts -->
+            <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+            <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+        <!-- Header with Name -->
         <header>
-            <h1>Professional Bio</h1>
+            <h1 id="proheader">Brian Soldani</h1>
         </header>
 
-    <div class="container">
 
-    <section id="main-bio">
-        
-            <h2>Brian Soldani</h2>
+            <!-- Navigation Pills Bar -->
+            <nav class="navigation_pills">
 
-            <img src="https://briansoldani.github.io/student_bio/mypic.jpg" alt="Brian Soldani" width="200" height="200" id="bio-image">
+                <ul class="nav nav-pills">
 
-            <p>
-            <span>My Experience:</span><br>
-            I'm a business professional with extensive sales operations and business development experience. I take a hands on approach to solve issues, drive efficiency, and develop strong sales organizations. Some of my greatest strengths include building long term strategic partnerships and establishing rapport with industry professionals. With a diverse background that ranges from owning my own business to leading startups to growth, I've gained a wide range of skills that have evolved over time. 
-            </p>
-     
-            <p>
-            I've spent the last several years at the world's largest startup building out processes and growing ad revenues to generate over $40M per week. As a trusted advisor, partner integration expert, and platform administrator, I've built strong relationships that lead to long term, repeat business and successfully on-boarded 1,000's of partners across various industries. 
-            </p>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Professional Bio</a>
+                    </li>
 
-            <p>
-            My current path has led me to dig deeper into technologies which support the businesses I've been involved with for many years. I'm studying to become a Full Stack Web Developer through a program offered at the University of Oregon. I'm becoming fluent in several new languages, such as HTML5, CSS3, Javascript, jQuery, AJAX, node.js, as well as working with APIs. The goal is to better understand these programs and technologies and how they relate to driving or supporting business needs, while increasing the value that I bring to the table. I'm ready to build more amazing things!    
-            </p>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutme.html">About Me</a>
+                    </li>
 
-            <p>
-            <span>My Journey:</span><br>
-            From a very early age I realized I loved being in business. When I was young, I used to climb up in the walnut trees around the park and cut down mistletoe. I would break it into small batches and tie red ribbon around the stems, then package it, and sell it door to door around the neighborhood. It was a great way to raise funds for buying holiday gifts or adding to my candy supply. 
-            </p>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
 
-            <p>
-            As I entered college I already knew I wanted to major in business. The world was big and I was thinking big so studying International Business seemed like the only logical choice for me. After college I found myself working for one of the biggest international food distributors in California, in what I thought was the best career ever. I was selling gourmet food and specialty items to grocery stores, restaurants, and bakeries. I relocated often, up and down the state, and truly enjoyed helping the customers I interacted with build their businesses by offering them my products and service.      
-            </p>
-    
-            <p>
-            When I made it to San Jose, I took a chance and applied to a little startup called Yahoo. As employee #2095 I spent many years there leading teams and driving successful products. I'm often told that I'm an awesome teammate, great business partner, and being the reason an organization stands out within the company. 
-            </p>
-    
-            <p>
-            <span>Your Move!</span><br>
-            If you've read this far then then you're doing the right thing. Take the next step and reach out. I'm happy to connect with you and discuss any questions you may have about my experience or skills. You can find more information in the Contact section on this page and you can find me on <a href="https://www.linkedin.com/in/brian-soldani/">LinkedIn</a> or call me @ (408)202-0401.
-            </p>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./games.html">Games</a>
+                    </li>
 
-    </section>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
 
-    <section id="contact-info">
-            <h2>Contact Info</h2>
-            <ul>
-                <button id="button1"><a href="https://briansoldani.github.io/02-homework-assignment-02/contact.html" target="_blank">Email</a></button>
-                <br>
+                </ul>
+            </nav>  
 
-                <button id="button2"><a href="./assets/Brian Soldani - Resume.pdf" target="_blank">Resume</a></button>
-                <br> 
 
-                <button id="button2"><a href="https://github.com/BrianSoldani" target="_blank">My Github</a></button>
-                <br>    
+            <!-- Begian About Me Content -->
+            <div class="container">
 
-                <button id="button3"><a href="https://briansoldani.github.io/02-homework-assignment-02/portfolio.html" target="_blank">My Portfolio</a></button>
-            </ul>
+                <div class="row">
+            
+                    <div class="col-md-12">
 
-    </section>
+                        <!-- The content in this div gets wrapped in a card -->
+                        <div class="card">
 
-    </div>
+                            <div class="card-body">
 
-    </body>
-</html>    
+                                <h2>Professional Bio</h2>
+
+                            </div>
+
+                        </div>
+            
+                            <div class="row">
+            
+                                <div class="col-md-5">
+            
+                                    <img src="https://briansoldani.github.io/student_bio/mypic.jpg" class="img-fluid" alt="Brian Soldani">  
+                                
+                                </div>
+            
+                                <div class="col-md-7">
+                            
+                                    <p>
+                                        An enthusiastic learner with a strong attention to detail, results-oriented work ethic, and excellent interpersonal and communication skills. I believe that working harder sometimes IS working smarter because you're out there grinding while everyone else is asleep.  
+                                    </p>
+                                    
+                                    <p>
+                                        I love to solve problems and execute on projects that have high impact. Helping to mentor and develop others is equally as satisfying and exciting. Making an impact (either with people or with product) is what continues to inspire me. 
+                                    </p>    
+
+                                    <p>
+                                        I’ve found that my niche in the tech world is to help internal and external customers with every kind of issue they have and guide them to a safe landing. Most recently I’ve worked with partners like Google, NFL, AT&T, and Disney, supporting their video, content, and ad serving initiatives across the Yahoo network, while growing their lines of business and identifying new opportunities.
+                                    </p>
+
+                                </div>    
+            
+                            </div>
+            
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Sticky Footer -->
+
+            <div class="footer">
+                    
+                Connect with me on <a class="btn-primary" href="https://www.linkedin.com/in/brian-soldani/" target="_blank" role="button">LinkedIn</a> or email me:
+
+                <a class="btn-primary" href="mailto:briansoldani@gmail.com" target="_blank" role="button">briansoldani@gmail.com</a>
+
+                    
+            </div>
+
+            <!-- Linking Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
